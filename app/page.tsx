@@ -1,6 +1,6 @@
 "use client";
 
-import { Github, Instagram, Linkedin, Mail, Twitter, Youtube, Globe, Facebook } from "lucide-react";
+import { Github, Instagram, Linkedin, Mail, Twitter, Youtube, Globe, Facebook, Heart } from "lucide-react";
 import AnimatedBackground from "../components/AnimatedBackground";
 import ProfileHeader from "../components/ProfileHeader";
 import SocialCard from "../components/SocialCard";
@@ -40,6 +40,13 @@ export default function Home() {
       href: "https://www.facebook.com/nathasit.opachalermpan.2025/",
       icon: <Facebook />,
       color: "#1877F2", // Facebook Blue
+    },
+    {
+      title: "Support Me",
+      subTitle: "โดเนทกดปุ่มนี้ไปยังหน้าโดเนท",
+      href: "https://easydonate.app/BossFam", // Replace with your actual donation link
+      icon: <Heart />,
+      color: "#db2777", // Pink-600
     },
     {
       title: "Contact Me",
