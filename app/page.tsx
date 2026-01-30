@@ -55,6 +55,24 @@ export default function Home() {
       icon: <Mail />,
       color: "#10b981", // Emerald
     },
+    {
+      title: "Line",
+      subTitle: "สำหรับติดต่องาน",
+      href: "https://line.me/ti/p/~bosszaza1852", // Replace with your actual Line ID
+      icon: (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          className="lucide lucide-line"
+        >
+          <path d="M22 10.4C22 5.5 17.5 1.5 12 1.5S2 5.5 2 10.4c0 4.4 3.5 8.1 8.2 8.8l-2 4.1c-.2.5.5.9.9.5l4.8-4.4c.1 0 .2 0 .2.1 6.3 0 11.4-4 11.4-8.9z" />
+        </svg>
+      ),
+      color: "#06C755", // Line Green
+    },
   ];
 
   return (
@@ -79,7 +97,7 @@ export default function Home() {
         </div>
 
         <footer className="mt-16 text-center text-sm text-gray-500">
-          <p>© 2026 Boss Entertaiment. All rights reserved.</p>
+          <p>© 2026 Boss Entertaiment. All rights reserved Update 30Jan2026.</p>
         </footer>
       </div>
     </main>
