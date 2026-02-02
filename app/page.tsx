@@ -9,7 +9,7 @@ export default function Home() {
   const profile = {
     name: "BossFam",
     bio: "Base in Bangkok TH Editor, Beginner Colorist Service Short Film , Music Video , Content Online , Youtube , Tiktok/Reel.",
-    avatar: "https://scontent.fbkk7-3.fna.fbcdn.net/v/t39.30808-6/591834656_2727646697568544_2737661402911912305_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeHl79uEHD0cvSpC5D6Ko5zbM5R0j879GBgzlHSPzv0YGIsFiZpPl5daxGSQ67fLWL--ixKLXJXmdJVxmnrXfoSt&_nc_ohc=T9CAbKOPVYYQ7kNvwGFk23H&_nc_oc=AdmlFcskAfutTfGBq50ABQjmAY6RKyElnc-E-Mk-BJanUscKvnYKHkv6_S07gSxjzqU&_nc_zt=23&_nc_ht=scontent.fbkk7-3.fna&_nc_gid=XafhZKpiw2uvnCTZa85lgQ&oh=00_AfrgeZ3BaaOlzuR3lS3w2LFqLXe-RzLjbbPBS-B9a336dg&oe=697CBBD3", // High-quality placeholder
+    avatar: "/Profile.jpg", // Profile image
   };
 
   const links = [
